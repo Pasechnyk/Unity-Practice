@@ -9,4 +9,8 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene("_Scene0_");
     }
+    public void LoadDifficultyScene()
+    {
+        SceneManager.LoadScene("_Difficulty_Scene_");
+    }
 }
