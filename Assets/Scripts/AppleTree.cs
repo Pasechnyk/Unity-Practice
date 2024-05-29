@@ -13,7 +13,7 @@ public class AppleTree : MonoBehaviour
 
     void Start()
     {
-        // Використання заданої складності
+        // Use difficulty settings
         secondsBetweenAppleDrops = DifficultyManager.appleDropSpeed;
         Invoke(nameof(DropApple), 2f);
     }
